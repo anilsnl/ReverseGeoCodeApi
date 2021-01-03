@@ -69,7 +69,7 @@ namespace ReverseGeoCode.WebApi.Test.Application.v1.Location.Queries.GetByLatitu
             Assert.Equal("Ordu", result.City);
             Assert.NotNull(result.Neighbourhood);
             Assert.Equal(5200514, result.NeighbourhoodId);
-            Assert.Null(result.District);
+            Assert.NotNull(result.District);
             Assert.Equal(5222, result.DistrictId);
         }
 
