@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{AAA83A1B-7B2
 ProjectSection(SolutionItems) = preProject
 	LICENSE = LICENSE
 	README.md = README.md
+	doc\location_semple_data.json = doc\location_semple_data.json
 EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B7D9A0FD-9F40-4F2A-9937-AD4FD787A4EF}"
@@ -28,6 +29,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseGeoCode.WebApi.Test", "test\unit\ReverseGeoCode.WebApi.Test\ReverseGeoCode.WebApi.Test.csproj", "{EE74740D-D65A-48FF-A6B1-C2B467C06F3B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseGeoCode.Repository.IntegrationTest", "test\intergarion\ReverseGeoCode.Repository.IntegrationTest\ReverseGeoCode.Repository.IntegrationTest.csproj", "{CCC49980-DADD-4942-9C80-DEDFAAA28016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseGeoCode.Models", "src\libs\ReverseGeoCode.Models\ReverseGeoCode.Models.csproj", "{351A6A6A-0391-4579-B5C2-84BB55166053}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +53,7 @@ Global
 		{D8E9D740-EADB-4FE8-8BA2-59449993E034} = {42BF2599-94E6-4C79-9074-0C3B4B08CDD0}
 		{EE74740D-D65A-48FF-A6B1-C2B467C06F3B} = {E3FF0697-2448-45A2-B8B2-916DCDDC85DF}
 		{CCC49980-DADD-4942-9C80-DEDFAAA28016} = {34B5A0A1-68EA-4658-854B-32EC680D973A}
+		{351A6A6A-0391-4579-B5C2-84BB55166053} = {42BF2599-94E6-4C79-9074-0C3B4B08CDD0}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7C93073E-82AC-4781-9BA6-9B5877334A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -100,5 +104,17 @@ Global
 		{CCC49980-DADD-4942-9C80-DEDFAAA28016}.Release|x64.Build.0 = Release|Any CPU
 		{CCC49980-DADD-4942-9C80-DEDFAAA28016}.Release|x86.ActiveCfg = Release|Any CPU
 		{CCC49980-DADD-4942-9C80-DEDFAAA28016}.Release|x86.Build.0 = Release|Any CPU
+		{351A6A6A-0391-4579-B5C2-84BB55166053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351A6A6A-0391-4579-B5C2-84BB55166053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351A6A6A-0391-4579-B5C2-84BB55166053}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{351A6A6A-0391-4579-B5C2-84BB55166053}.Debug|x64.Build.0 = Debug|Any CPU
+		{351A6A6A-0391-4579-B5C2-84BB55166053}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{351A6A6A-0391-4579-B5C2-84BB55166053}.Debug|x86.Build.0 = Debug|Any CPU
+		{351A6A6A-0391-4579-B5C2-84BB55166053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351A6A6A-0391-4579-B5C2-84BB55166053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351A6A6A-0391-4579-B5C2-84BB55166053}.Release|x64.ActiveCfg = Release|Any CPU
+		{351A6A6A-0391-4579-B5C2-84BB55166053}.Release|x64.Build.0 = Release|Any CPU
+		{351A6A6A-0391-4579-B5C2-84BB55166053}.Release|x86.ActiveCfg = Release|Any CPU
+		{351A6A6A-0391-4579-B5C2-84BB55166053}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
