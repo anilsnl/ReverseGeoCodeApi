@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseGeoCode.Repository.I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseGeoCode.Models", "src\libs\ReverseGeoCode.Models\ReverseGeoCode.Models.csproj", "{351A6A6A-0391-4579-B5C2-84BB55166053}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseGeoCode.GrpcService", "src\apis\ReverseGeoCode.GrpcService\ReverseGeoCode.GrpcService.csproj", "{C118D79B-C0E1-4C8E-BED2-B9B182BEE894}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,7 @@ Global
 		{EE74740D-D65A-48FF-A6B1-C2B467C06F3B} = {E3FF0697-2448-45A2-B8B2-916DCDDC85DF}
 		{CCC49980-DADD-4942-9C80-DEDFAAA28016} = {34B5A0A1-68EA-4658-854B-32EC680D973A}
 		{351A6A6A-0391-4579-B5C2-84BB55166053} = {42BF2599-94E6-4C79-9074-0C3B4B08CDD0}
+		{C118D79B-C0E1-4C8E-BED2-B9B182BEE894} = {EC79C709-E3A1-48A4-A275-4D4D8BDCDE79}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7C93073E-82AC-4781-9BA6-9B5877334A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -116,5 +119,17 @@ Global
 		{351A6A6A-0391-4579-B5C2-84BB55166053}.Release|x64.Build.0 = Release|Any CPU
 		{351A6A6A-0391-4579-B5C2-84BB55166053}.Release|x86.ActiveCfg = Release|Any CPU
 		{351A6A6A-0391-4579-B5C2-84BB55166053}.Release|x86.Build.0 = Release|Any CPU
+		{C118D79B-C0E1-4C8E-BED2-B9B182BEE894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C118D79B-C0E1-4C8E-BED2-B9B182BEE894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C118D79B-C0E1-4C8E-BED2-B9B182BEE894}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C118D79B-C0E1-4C8E-BED2-B9B182BEE894}.Debug|x64.Build.0 = Debug|Any CPU
+		{C118D79B-C0E1-4C8E-BED2-B9B182BEE894}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C118D79B-C0E1-4C8E-BED2-B9B182BEE894}.Debug|x86.Build.0 = Debug|Any CPU
+		{C118D79B-C0E1-4C8E-BED2-B9B182BEE894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C118D79B-C0E1-4C8E-BED2-B9B182BEE894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C118D79B-C0E1-4C8E-BED2-B9B182BEE894}.Release|x64.ActiveCfg = Release|Any CPU
+		{C118D79B-C0E1-4C8E-BED2-B9B182BEE894}.Release|x64.Build.0 = Release|Any CPU
+		{C118D79B-C0E1-4C8E-BED2-B9B182BEE894}.Release|x86.ActiveCfg = Release|Any CPU
+		{C118D79B-C0E1-4C8E-BED2-B9B182BEE894}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

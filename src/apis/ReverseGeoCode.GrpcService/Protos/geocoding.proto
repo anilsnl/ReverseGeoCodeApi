@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "ReverseGeoCode.GrpcService.Abstract";
+
+package reverseGeoCode;
+
+// The reverse geo code service.
+service GeoCodingService {
+  // Sends a greeting
+  rpc ReverseGeoCode (ReverseRequest) returns (ReverseReply);
+}
+
+// The request for reverse geocoding.
+message ReverseRequest {
+  double Latitude = 1;
+  double Longitude = 2;
+}
+
+// The response message containing the revered geocoded data.
+message ReverseReply {
+  string City = 1;
+  string District = 2;
+  string Neighbourhood = 3;
+  int32 CityId = 4;
+  int32 DistrictId = 5;
+  int32 NeighbourhoodId = 6;
+}

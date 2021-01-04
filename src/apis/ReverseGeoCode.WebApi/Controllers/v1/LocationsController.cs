@@ -28,7 +28,8 @@ namespace ReverseGeoCode.WebApi.Controllers.v1
         /// </summary>
         /// <returns></returns>
         [HttpGet("getByLatitudeAndLongitude")]
-        public async Task<IActionResult> Get([FromQuery]Application.v1.Locations.Queries.GetByLatitudeAndLongitude.Request request)
+        public async Task<IActionResult> Get(
+            [FromQuery] Application.v1.Locations.Queries.GetByLatitudeAndLongitude.Request request)
         {
             var response = await _mediator.Send(request);
             if (response == null)
